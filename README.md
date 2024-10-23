@@ -17,6 +17,7 @@ This repository contains a small challenge for you to interact on your own with 
 The challenge consists of adding a new endpoint to the chat application that allows deleting a conversation and its messages.
 
 Your `TODO` is to implement the DELETE endpoint for deleting a conversation and all its messages:
+
 ```typescript
 // file: express/app.ts
 
@@ -42,6 +43,7 @@ Note: The solution can be found `solution.md` file or in the `solution` branch o
 ## Project Overview
 
 The chat application provides functionalities to:
+
 - Fetch all conversations.
 - Fetch all messages from a specific conversation.
 - Chat with an LLM agent.
@@ -55,6 +57,7 @@ The chat application provides functionalities to:
 ## Architecture
 
 The application consists of the following components:
+
 - **Serverless Express Backend**: Provides a REST API for interacting with chat conversations and messages. Deployed in a serverless environment using Genezio.
 - **Mongo Database**: Stores conversations and messages. If not available, mock data will be used.
 - **React Frontend**: Provides a simple interface for interacting with the chat application.
@@ -69,3 +72,5 @@ If you encounter any issues, please leave a [GitHub issue] and I'll try to help 
 
 - https://genezio.com/
 - https://genezio.com/docs/
+
+Congrats!
