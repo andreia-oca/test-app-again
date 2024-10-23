@@ -38,4 +38,7 @@ services:
         - name: chat-app
           region: eu-central-1
           type: mongo-atlas
+        - name: chat-app-2
+          region: eu-central-1
+          type: mongo-atlas        
 yamlVersion: 2
