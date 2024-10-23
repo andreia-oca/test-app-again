@@ -40,5 +40,8 @@ services:
           type: mongo-atlas
         - name: chat-app-2
           region: eu-central-1
-          type: mongo-atlas        
+          type: mongo-atlas
+        - name: chat-app-3
+          region: eu-central-1
+          type: postgres-neon
 yamlVersion: 2
